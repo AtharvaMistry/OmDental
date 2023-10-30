@@ -1,12 +1,6 @@
-import { Carousel } from "antd";
 import "./Style.css";
 import Footer from "./Footer";
 import Button from "./Reusables/Button";
-import CardService from "./Reusables/CardService";
-import TeethProtection from "../assets/icons8-tooth-protection-64.png";
-import Whitening from "../assets/young-female-patient-visiting-dentist-office (1).jpg";
-import DentalImplant from "../assets/icons8-tooth-implant-64.png";
-import Porcelain from "../assets/icons8-dental-32.png";
 import GeneralImg from "../assets/feeling-happy-surprised-realizing-solution-idea.jpg";
 import GeneralIconImg from "../assets/icons8-dental-91.png";
 import CosmeticImg from "../assets/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw.jpg";
@@ -17,6 +11,8 @@ import EmergencyImg from "../assets/dentist-doing-check-up-patient.jpg";
 import EmergencyIconImg from "../assets/icons8-dental-64.png";
 import ServicesCard from "./Reusables/ServicesCard";
 import Contact from "./Reusables/Contact";
+
+
 function Services() {
   const ServicesArray = [
     {

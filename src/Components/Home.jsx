@@ -6,8 +6,6 @@ import Services1Img from "../assets/icons8-dental-32.png";
 import Services2Img from "../assets/icons8-dental-48.png";
 import Services3Img from "../assets/icons8-dental-64.png";
 import Services4Img from "../assets/icons8-dental-65.png";
-import Services5Img from "../assets/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw.jpg";
-import Services6Img from "../assets/icons8-dental-braces-64.png";
 import ReviewImg from "../assets/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign-removebg-preview.png";
 import DoctorImg from "../assets/Doctor.jpg";
 import { Carousel } from "antd";

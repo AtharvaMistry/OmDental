@@ -4,12 +4,7 @@ import Blog2 from "./Reusables/Blog2";
 import Blog3 from "./Reusables/Blog3";
 import Contact from "./Reusables/Contact";
 import "./Style.css";
-import {
-  UilLocationPoint,
-  UilPhoneAlt,
-  UilCalendarAlt,
-  UilClock,
-} from "@iconscout/react-unicons";
+
 function Blog() {
   return (
     <>

@@ -1,11 +1,10 @@
-import { UilBars, UilPhone } from "@iconscout/react-unicons";
+import { UilBars } from "@iconscout/react-unicons";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "./Reusables/Button";
 import "../App.css";
 import "./Style.css";
 import { Drawer } from "antd";
-// import TeethImg from '../assets/tooth_2035058.png';
 function Header() {
   const [Menu, setMenu] = useState("");
   const [open, setOpen] = useState(false);
@@ -18,9 +17,7 @@ function Header() {
   return (
     <div className="grid grid-cols-2 py-3 px-4 bgServiceHome sm:grid-cols-3 md:px-20">
       <div className="flex justify-start items-center gap-2">
-        {/* <div className="bg-[#8774d9] rounded-full  p-1">
-          <img src={TeethImg} alt="" className="min-w-10 max-w-10"/>
-        </div> */}
+
         <p className="font-semibold text-[#8774d9]">OmDentalClinic</p>
       </div>
       <div className="hidden sm:grid place-items-end md:order-3">
@@ -29,10 +26,7 @@ function Header() {
             <Button Name="Call Us" />
           </a>
         </div>
-        {/* <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-3 py-1 rounded-full">
-          <UilPhone className="w-4" />
-          <p>Call Us</p>
-        </div> */}
+
       </div>
       <div className="flex justify-end items-center md:hidden">
         <UilBars className="text-[#8774D9]" onClick={showDrawer} />

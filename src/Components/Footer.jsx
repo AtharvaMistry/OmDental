@@ -1,4 +1,3 @@
-import IconImg1 from "../assets/icons8-dental-91.png";
 import { UilPhone } from "@iconscout/react-unicons";
 
 function Footer() {
@@ -61,34 +60,6 @@ function Footer() {
             <p className="mb-1">4.30pm to 8.00pm</p>
             <p className="mb-1"> Sunday on appointment only</p>
           </div>
-          {/* <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Monday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Tuesday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Wednesday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Thursday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Friday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Saturday</p>
-            <p>8:00 - 16:00</p>
-          </div>
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
-            <p>Sunday</p>
-            <p>-------------- </p>
-          </div> */}
         </div>
       </div>
     </div>
