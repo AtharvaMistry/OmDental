@@ -45,3 +45,10 @@
   background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff) !important;
   background-repeat: no-repeat !important;
 }
+
+
+/* doctor card */
+.glowingEffect:hover{
+  box-shadow: 0 0 20px #8774d9;
+  /* border-color: #0974f1; */
+}

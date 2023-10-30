@@ -62,7 +62,7 @@ function Services() {
           <Button Name="Request Appointment" />
         </div>
 
-        <div className="grid grid-cols-2 pb-10 sm:grid-cols-4 sm:gap-5">
+        <div className="grid grid-cols-1 pb-10 sm:grid-cols-4 sm:gap-5">
           <div className="col-span-2 w-fit  sm:col-span-4 sm:mt-10">
             <p className="text-gray-800 text-xl font-medium border-b border-gray-800 border-dashed">
               OUR SERVICES
