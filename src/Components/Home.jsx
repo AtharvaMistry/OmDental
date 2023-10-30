@@ -164,22 +164,19 @@ function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2">
-          <div>
+        <div className="grid grid-cols-1  sm:grid-cols-2">
+          <div className="sm:flex flex-col justify-center">
             <Carousel afterChange={onChange}>
               <Reviews
-                Photo={ReviewArray[0].Photo}
                 Review={ReviewArray[0].Review}
                 Name={ReviewArray[0].Name}
               />
               <Reviews
-                Photo={ReviewArray[1].Photo}
                 Review={ReviewArray[1].Review}
                 Name={ReviewArray[1].Name}
               />
 
               <Reviews
-                Photo={ReviewArray[2].Photo}
                 Review={ReviewArray[2].Review}
                 Name={ReviewArray[2].Name}
               />
