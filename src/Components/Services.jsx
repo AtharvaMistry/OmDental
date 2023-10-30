@@ -59,7 +59,9 @@ function Services() {
             environment. New patients are welcomed with a complimentary oral
             health consultation.
           </p>
-          <Button Name="Request Appointment" />
+          <a href="tel:+916353846481">
+            <Button Name="Request Appointment" />
+          </a>
         </div>
 
         <div className="grid grid-cols-1 gap-5 pb-10 sm:grid-cols-2 md:grid-cols-4 sm:gap-5">

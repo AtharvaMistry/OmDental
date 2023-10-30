@@ -33,7 +33,7 @@ function About() {
               Creating Beautiful Smiles Since 2023
             </p>
             <p className="text-gray-600 text-xs">
-              Dentalia is a modern dental clinic, specialised in advanced
+              OmDentalCare is a modern dental clinic, specialised in advanced
               diagnostics and treatment of dental disorders. We guarantee
               comprehensive diagnostics and offer various forms of dental care,
               surgical procedures, and cosmetic dental services.
@@ -139,7 +139,7 @@ function About() {
           </div>
         </div>
         {/* doctor */}
-        <div className="grid mt-10 md:px-20">
+        <div className="grid mt-10 ">
           <Doctor />
         </div>
         {/* consultation */}
@@ -153,7 +153,9 @@ function About() {
             <p className="text-2xl font-medium mb-2 text-white">
               Schedule a Complimentary Consultation
             </p>
-            <Button Name="REQUEST APPOINTMENT" />
+            <a href="tel:+916353846481">
+              <Button Name="REQUEST APPOINTMENT" />
+            </a>
           </div>
         </div>
       </div>

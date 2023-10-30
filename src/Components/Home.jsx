@@ -9,7 +9,7 @@ import Services4Img from "../assets/icons8-dental-65.png";
 import Services5Img from "../assets/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw.jpg";
 import Services6Img from "../assets/icons8-dental-braces-64.png";
 import ReviewImg from "../assets/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign-removebg-preview.png";
-import DoctorImg from '../assets/Doctor.jpg';
+import DoctorImg from "../assets/Doctor.jpg";
 import { Carousel } from "antd";
 import "../App.css";
 import Reviews from "./Reusables/Reviews";
@@ -83,7 +83,7 @@ function Home() {
         </div>
         <div className="flex justify-center items-center">
           <div className="max-w-[400px]">
-            <img src={HomeImg2} alt="" className="object-cover w-full h-full"/>
+            <img src={HomeImg2} alt="" className="object-cover w-full h-full" />
           </div>
         </div>
       </div>
@@ -99,12 +99,14 @@ function Home() {
             Bright, Healthy and Confident.
           </p>
           <div className="flex justify-start items-start gap-3 flex-col sm:flex-row sm:items-center">
-            <button className="bg-[#8774d9] px-3 py-1 rounded-full text-white hover:bg-[#afa3e6]">
-              Make an Appointment
-            </button>
-            <button className="border border-gray-700 px-3 py-1 rounded-full text-gray-700 hover:bg-gray-200">
+            <a href="tel:+916353846481">
+              <button className="bg-[#8774d9] px-3 py-1 rounded-full text-white hover:bg-[#afa3e6]">
+                Make an Appointment
+              </button>
+            </a>
+            {/* <button className="border border-gray-700 px-3 py-1 rounded-full text-gray-700 hover:bg-gray-200">
               Online Consultation
-            </button>
+            </button> */}
           </div>
           <div className="flex justify-start items-start gap-2 mt-5">
             <UilRegistered className="text-[#8774D9] w-12" />
@@ -121,7 +123,7 @@ function Home() {
         </div>
         <div className="flex justify-center items-center">
           <div className="max-w-[400px]">
-            <img src={HomeImg3} alt="" className="object-cover w-full h-full"/>
+            <img src={HomeImg3} alt="" className="object-cover w-full h-full" />
           </div>
         </div>
       </div>

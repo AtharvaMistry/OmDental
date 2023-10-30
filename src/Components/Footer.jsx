@@ -13,10 +13,12 @@ function Footer() {
           diagnostics and treatment of dental and oral disorders.
         </p>
 
-        <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-5 py-2 rounded-full my-4 cursor-pointer hover:bg-[#afa3e6]">
-          <UilPhone className="w-4" />
-          <p>Call Us</p>
-        </div>
+        <a href="tel:+1234567890">
+          <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-5 py-2 rounded-full my-4 cursor-pointer hover:bg-[#afa3e6]">
+            <UilPhone className="w-4" />
+            <p>Call Us</p>
+          </div>
+        </a>
       </div>
       {/* our services */}
       <div className="text-gray-600">
@@ -53,7 +55,13 @@ function Footer() {
           <p className="text-[#8774d9] font-semibold">Opening Hours</p>
         </div>
         <div className="grid gap-y-3 my-4">
-          <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
+          <div className="flex justify-between flex-col items-center text-gray-600 text-xs border-b border-gray-400">
+            <p className="mb-1">Monday to Saturday</p>
+            <p className="mb-1">9.30am to 1.30pm </p>
+            <p className="mb-1">4.30pm to 8.00pm</p>
+            <p className="mb-1"> Sunday on appointment only</p>
+          </div>
+          {/* <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
             <p>Monday</p>
             <p>8:00 - 16:00</p>
           </div>
@@ -80,7 +88,7 @@ function Footer() {
           <div className="flex justify-between items-center text-gray-600 text-xs border-b border-gray-400">
             <p>Sunday</p>
             <p>-------------- </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

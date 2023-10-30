@@ -1,4 +1,9 @@
-import { UilLocationPoint, UilPhoneAlt, UilCalendarAlt , UilClock} from "@iconscout/react-unicons";
+import {
+  UilLocationPoint,
+  UilPhoneAlt,
+  UilCalendarAlt,
+  UilClock,
+} from "@iconscout/react-unicons";
 
 function Contact() {
   return (
@@ -6,14 +11,16 @@ function Contact() {
       <div className="flex justify-start items-center gap-2 border border-dashed border-gray-700 px-3 py-2 rounded-md rotate-diagonal-1">
         <UilLocationPoint className="text-[#8774d9]" />
         <div>
-          <p className="text-gray-800 text-sm">120 Dental Street</p>
-          <p className="text-gray-600 text-xs">San Francisco, CA 94111</p>
+          <p className="text-gray-800 text-sm">
+            102 , Kabir Arcade , Grid Chowkdi , Beside ITI Ground
+          </p>
+          <p className="text-gray-600 text-xs">Anand- Lambhvel road,Anand</p>
         </div>
       </div>
       <div className="flex justify-start items-center gap-2 border border-dashed border-gray-700 px-3 py-2 rounded-md rotate-diagonal-1">
         <UilPhoneAlt className="text-[#8774d9]" />
         <div>
-          <p className="text-gray-800 text-sm">800-555-2368</p>
+          <p className="text-gray-800 text-sm">6353846481</p>
           <p className="text-gray-600 text-xs">Call us today!</p>
         </div>
       </div>
@@ -21,14 +28,23 @@ function Contact() {
         <UilClock className="text-[#8774d9]" />
         <div>
           <p className="text-gray-800 text-sm">Opening Hours</p>
-          <p className="text-gray-600 text-xs">Mon - Fri: 8:00 - 17:00</p>
+          <p className="text-gray-600 text-xs">
+            Monday to Saturday <br />
+            9.30am to 1.30pm <br /> 4.30pm to 8.00pm
+          </p>
         </div>
       </div>
       <div className="flex justify-start items-center gap-2 border border-dashed border-gray-700 px-3 py-2 rounded-md rotate-diagonal-1">
         <UilCalendarAlt className="text-[#8774d9]" />
         <div>
           <p className="text-gray-800 text-sm">Book Appointment</p>
-          <p className="text-gray-600 text-xs">email@email.com</p>
+          <a href="mailto:omdentalcare0708@gmail.com" className="btn">
+            <p className="text-gray-600 text-xs">
+              omdentalcare0708
+              <br />
+              @gmail.com
+            </p>
+          </a>
         </div>
       </div>
     </div>

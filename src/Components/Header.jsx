@@ -25,7 +25,9 @@ function Header() {
       </div>
       <div className="hidden sm:grid place-items-end md:order-3">
         <div>
-          <Button Name="Call Us" />
+          <a href="tel:+916353846481">
+            <Button Name="Call Us" />
+          </a>
         </div>
         {/* <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-3 py-1 rounded-full">
           <UilPhone className="w-4" />
