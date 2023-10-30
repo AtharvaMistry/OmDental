@@ -12,7 +12,7 @@ function Footer() {
           diagnostics and treatment of dental and oral disorders.
         </p>
 
-        <a href="tel:+1234567890">
+        <a href="tel:+916353846481">
           <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-5 py-2 rounded-full my-4 cursor-pointer hover:bg-[#afa3e6]">
             <UilPhone className="w-4" />
             <p>Call Us</p>
