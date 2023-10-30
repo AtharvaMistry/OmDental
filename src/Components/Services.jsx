@@ -46,8 +46,8 @@ function Services() {
   ];
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:px-20  my-10">
-        <div className="">
+      <div className="grid grid-cols-1 px-4 sm:grid-cols-1 md:px-20  my-10">
+        <div className="mb-10">
           <p>TREAT YOURSELF TO</p>
           <p className="text-2xl text-gray-800">
             Comprehensive Dental Services
@@ -62,9 +62,9 @@ function Services() {
           <Button Name="Request Appointment" />
         </div>
 
-        <div className="grid grid-cols-1 pb-10 sm:grid-cols-4 sm:gap-5">
-          <div className="col-span-2 w-fit  sm:col-span-4 sm:mt-10">
-            <p className="text-gray-800 text-xl font-medium border-b border-gray-800 border-dashed">
+        <div className="grid grid-cols-1 gap-5 pb-10 sm:grid-cols-2 md:grid-cols-4 sm:gap-5">
+          <div className="col-span-1 w-fit mb-5  sm:col-span-2 sm:mt-10 md:col-span-4">
+            <p className="text-gray-800 text-center text-xl font-medium border-b border-gray-800 border-dashed">
               OUR SERVICES
             </p>
           </div>
