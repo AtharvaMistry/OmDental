@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#root {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  /* background-color: #f5f3ff;  */
+  background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff);
+  background-repeat: no-repeat;
+}
+.bgServiceHome {
+  background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff);
+}
+.slick-dots li,
+.slick-active button {
+  background-color: gray !important;
+}
+:where(.css-dev-only-do-not-override-xu9wm8).ant-carousel .slick-dots-bottom {
+  bottom: 2px !important;
+}
+.irregularShape {
+  border-radius: 25% 75% 23% 77% / 62% 21% 79% 38%;
+}
+

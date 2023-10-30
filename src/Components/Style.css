@@ -1,0 +1,47 @@
+.backgroundImg {
+  background-image: url("./assets/young-female-patient-visiting-dentist-office\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.glassmorphism1 {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.bgService {
+  background-color: #c3baed;
+  opacity: 0.7;
+  background-image: linear-gradient(#a4a9f7 1px, transparent 1px),
+    linear-gradient(to right, #a4a9f7 1px, #c3baed 1px);
+  background-size: 20px 20px;
+}
+
+@keyframes rotate-diagonal-1 {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+.rotate-diagonal-1:hover {
+  animation: rotate-diagonal-1 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+.BackgroundColorDrawer {
+  background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff) !important;
+  background-repeat: no-repeat !important;
+}
