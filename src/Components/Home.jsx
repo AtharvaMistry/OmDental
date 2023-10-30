@@ -82,8 +82,8 @@ function Home() {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <div className="">
-            <img src={HomeImg2} alt="" className="max-w-[500px]"/>
+          <div className="max-w-[400px]">
+            <img src={HomeImg2} alt="" className="object-cover w-full h-full"/>
           </div>
         </div>
       </div>
@@ -120,8 +120,8 @@ function Home() {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div className="">
-            <img src={HomeImg3} alt="" className="max-w-[500px]"/>
+          <div className="max-w-[400px]">
+            <img src={HomeImg3} alt="" className="object-cover w-full h-full"/>
           </div>
         </div>
       </div>
