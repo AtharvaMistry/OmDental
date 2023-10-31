@@ -27,7 +27,7 @@ function About() {
         <div className="grid grid-cols-1  sm:grid-cols-2 ">
           <div className="flex flex-col justify-center items-start">
             <p className="text-gray-800 font-semibold">
-              WE ARE <span className="text-[#8774d9]">OmDentalClinic</span>
+              WE ARE <span className="text-[#8774d9]">OmDentalCare</span>
             </p>
             <p className="text-gray-600 text-sm my-2">
               Creating Beautiful Smiles Since 2023

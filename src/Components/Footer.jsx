@@ -1,18 +1,18 @@
 import { UilPhone } from "@iconscout/react-unicons";
 
 function Footer() {
-  const array = [1,2,3,4,5]
-  array.forEach(element => {
+  const array = [1, 2, 3, 4, 5];
+  array.forEach((element) => {
     console.log(element);
   });
   return (
     <div className="grid bg-[#c7bfec] px-4 sm:grid-cols-3 gap-5 md:px-20 py-10">
       <div>
         <div>
-          <p className="text-[#8774d9] font-semibold">OmDentalClinic</p>
+          <p className="text-[#8774d9] font-semibold">OmDentalCare</p>
         </div>
         <p className="text-sm my-3 text-gray-600">
-          OmDentalClinic is a modern dental clinic, specialized in advanced
+          OmDentalCare is a modern dental clinic, specialized in advanced
           diagnostics and treatment of dental and oral disorders.
         </p>
 
@@ -60,7 +60,7 @@ function Footer() {
         <div className="grid gap-y-3 my-4">
           <div className="flex justify-between flex-col items-center text-gray-600 text-xs border-b border-gray-400">
             <p className="mb-1">Monday to Saturday</p>
-            <p className="mb-1">9.30am to 1.30pm </p>
+            <p className="mb-1">9.30am to 12.30pm </p>
             <p className="mb-1">4.30pm to 8.00pm</p>
             <p className="mb-1"> Sunday on appointment only</p>
           </div>

@@ -30,7 +30,7 @@ function Contact() {
           <p className="text-gray-800 text-sm">Opening Hours</p>
           <p className="text-gray-600 text-xs">
             Monday to Saturday <br />
-            9.30am to 1.30pm <br /> 4.30pm to 8.00pm
+            9.30am to 12.30pm <br /> 4.30pm to 8.00pm
           </p>
         </div>
       </div>

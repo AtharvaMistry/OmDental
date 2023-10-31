@@ -65,14 +65,14 @@ function Home() {
   return (
     <>
       {/* welcome */}
-      
+
       <div className="grid grid-cols-1 px-4 md:grid-cols-2 md:px-20">
         <div className="mt-10 md:order-2 lg:flex justify-center items-center flex-col">
           <p className="text-3xl text-gray-800 font-bold">
-            WELCOME TO OmDentalClinic
+            WELCOME TO OmDentalCare
           </p>
           <p className="my-5 text-gray-700">
-            OmDentalClinic is a modern dental clinic, specialized in advanced
+            OmDentalCare is a modern dental clinic, specialized in advanced
             diagnostics and treatment of dental and oral disorders. We offer
             comprehensive services from all fields of dentistry. In addition to
             high-end dental equipment, all services are provided in a
