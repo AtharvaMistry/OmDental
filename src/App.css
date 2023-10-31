@@ -10,7 +10,13 @@ body {
   background-repeat: no-repeat;
 }
 .bgServiceHome {
-  background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff);
+  /* background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff); */
+  background: rgba(196, 185, 241, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .slick-dots li,
 .slick-active button {
@@ -24,8 +30,5 @@ body {
 }
 
 /* text animation */
-
-
-
 
 /* .wrapper {background-color: #FFFFFF}; */
