@@ -9,7 +9,6 @@ function Layout() {
   return (
     <div className="">
       <div className="fixed top-0 right-0 left-0 z-[999] ">
-       
         <Header />
       </div>
       <div className="mt-[70px]">
