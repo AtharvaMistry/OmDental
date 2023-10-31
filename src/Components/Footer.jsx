@@ -15,7 +15,7 @@ function Footer() {
 
         <a href="tel:+916353846481">
           <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-5 py-2 rounded-full my-4 cursor-pointer hover:bg-[#afa3e6]">
-            <UilPhone className="w-4" />
+            <UilPhone className="w-4 animate-bounce" />
             <p>Call Us</p>
           </div>
         </a>
