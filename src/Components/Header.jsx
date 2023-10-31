@@ -17,7 +17,6 @@ function Header() {
   return (
     <div className="grid grid-cols-2 py-3 px-4 bgServiceHome sm:grid-cols-3 md:px-20">
       <div className="flex justify-start items-center gap-2">
-
         <p className="font-semibold text-[#8774d9]">OmDentalClinic</p>
       </div>
       <div className="hidden sm:grid place-items-end md:order-3">
@@ -26,7 +25,6 @@ function Header() {
             <Button Name="Call Us" />
           </a>
         </div>
-
       </div>
       <div className="flex justify-end items-center md:hidden">
         <UilBars className="text-[#8774D9]" onClick={showDrawer} />

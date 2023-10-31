@@ -109,31 +109,28 @@ function About() {
           <div className="rounded-full overflow-hidden flex justify-center items-center max-w-[400px]">
             <img src={TeamImg} alt="" className="!object-cover" />
           </div>
-          <div className="px-5 lg:flex justify-center items-center flex-col">
-            <div>
+          <div className="px-5 lg:flex justify-center items-center flex-col ">
+            <div className="mb-5 border border-dashed border-gray-700 rounded-md p-2 lg:mb-0">
               <p className="text-sm font-medium text-gray-800">OUR MISSION</p>
               <p className="text-xs my-2 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                massa ligula, aliquet euismod eleifend vitae, interdum ut mi.
-                Praesent fringilla pharetra sapien sit amet semper. Nunc id
-                massa ut mi tempus mattis ac eu lectus. Praesent egestas
-                eleifend porta. Sed posuere venenatis libero quis tempor. Nulla
-                metus mi, malesuada eu risus nec, placerat imperdiet ex. Nam sit
-                amet arcu id risus varius mattis vel sit amet lectus. Sed sit
-                amet tempus purus. Morbi molestie ex quis vehicula sodales.
+                Our mission at OmDentalCare, the dental clinic in Anand, is to
+                provide exceptional dental services with a genuine commitment to
+                the well-being of our patients. We are dedicated to ensuring the
+                oral health and satisfaction of every individual we serve. Your
+                smile is our priority, and we&apos;re here to make it the best
+                it can be.
               </p>
             </div>
-            <div>
+            <div className="border border-dashed border-gray-700 rounded-md p-2">
               <p className="text-sm font-medium text-gray-800">OUR APPROACH</p>
               <p className="text-xs my-2 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                massa ligula, aliquet euismod eleifend vitae, interdum ut mi.
-                Praesent fringilla pharetra sapien sit amet semper. Nunc id
-                massa ut mi tempus mattis ac eu lectus. Praesent egestas
-                eleifend porta. Sed posuere venenatis libero quis tempor. Nulla
-                metus mi, malesuada eu risus nec, placerat imperdiet ex. Nam sit
-                amet arcu id risus varius mattis vel sit amet lectus. Sed sit
-                amet tempus purus. Morbi molestie ex quis vehicula sodales.
+                Our approach at OmDentalCare is rooted in a patient-centric
+                philosophy. We believe in personalized, compassionate, and
+                quality dental care. Our team of experienced professionals is
+                committed to creating a welcoming and comfortable environment
+                for our patients. We listen to your needs, provide tailored
+                solutions, and deliver top-notch dental services with a genuine
+                dedication to your oral health and satisfaction.
               </p>
             </div>
           </div>

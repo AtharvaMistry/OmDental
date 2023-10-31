@@ -15,7 +15,7 @@ function Doctor() {
           Your first visit will be comfortable and informative. With Dr.navdip,
           your dental health is in trusted hands.
         </p>
-        <div className="rounded-full overflow-hidden ">
+        <div className="rounded-full overflow-hidden shrink-0">
           <img src={Services5Img} alt=" " className="w-36 h-36 object-cover" />
         </div>
       </div>

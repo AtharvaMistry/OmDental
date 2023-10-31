@@ -6,6 +6,7 @@ import Contact from "./Reusables/Contact";
 import "./Style.css";
 
 function Blog() {
+
   return (
     <>
       <div className="px-4 md:px-20 py-10">

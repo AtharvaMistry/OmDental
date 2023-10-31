@@ -16,8 +16,8 @@
 .glassmorphism1 {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -42,13 +42,28 @@
 }
 
 .BackgroundColorDrawer {
-  background-image: linear-gradient(to right top, #d4cef1, #e9e6f8, #ffffff) !important;
+  background-image: linear-gradient(
+    to right top,
+    #d4cef1,
+    #e9e6f8,
+    #ffffff
+  ) !important;
   background-repeat: no-repeat !important;
 }
 
-
 /* doctor card */
-.glowingEffect:hover{
+.glowingEffect:hover {
   box-shadow: 0 0 20px #8774d9;
   /* border-color: #0974f1; */
+}
+
+/* background patter */
+.backgroundPattern {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background: linear-gradient(135deg, #a4a7e755 25%, transparent 25%) -10px 0/
+      20px 20px,
+    linear-gradient(225deg, #a4a7e7 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(315deg, #a4a7e755 25%, transparent 25%) 0px 0/ 20px 20px,
+    linear-gradient(45deg, #a4a7e7 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
 }

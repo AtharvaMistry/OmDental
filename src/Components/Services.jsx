@@ -42,7 +42,7 @@ function Services() {
   ];
   return (
     <>
-      <div className="grid grid-cols-1 px-4 sm:grid-cols-1 md:px-20  my-10">
+      <div className="grid grid-cols-1 px-4 py-5 sm:grid-cols-1 md:px-20   my-10">
         <div className="mb-10">
           <p>TREAT YOURSELF TO</p>
           <p className="text-2xl text-gray-800">

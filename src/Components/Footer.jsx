@@ -1,6 +1,10 @@
 import { UilPhone } from "@iconscout/react-unicons";
 
 function Footer() {
+  const array = [1,2,3,4,5]
+  array.forEach(element => {
+    console.log(element);
+  });
   return (
     <div className="grid bg-[#c7bfec] px-4 sm:grid-cols-3 gap-5 md:px-20 py-10">
       <div>
