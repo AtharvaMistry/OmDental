@@ -1,13 +1,9 @@
 import "./Style.css";
 import Footer from "./Footer";
 import Button from "./Reusables/Button";
-import GeneralImg from "../assets/feeling-happy-surprised-realizing-solution-idea.jpg";
 import GeneralIconImg from "../assets/icons8-dental-91.png";
-import CosmeticImg from "../assets/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw.jpg";
 import CosmeticIconImg from "../assets/icons8-dental-filling-50.png";
-import RestorativeImg from "../assets/young-female-patient-visiting-dentist-office (1).jpg";
 import RestorativeIconImg from "../assets/icons8-dental-65.png";
-import EmergencyImg from "../assets/dentist-doing-check-up-patient.jpg";
 import EmergencyIconImg from "../assets/icons8-dental-64.png";
 import ServicesCard from "./Reusables/ServicesCard";
 import Contact from "./Reusables/Contact";
@@ -16,25 +12,21 @@ import Contact from "./Reusables/Contact";
 function Services() {
   const ServicesArray = [
     {
-      Img: GeneralImg,
       IconImg: GeneralIconImg,
       Name: "General Dental Care",
       Text: "General dentistry is for patients of all ages offering complete, comprehensive dental health care.",
     },
     {
-      Img: CosmeticImg,
       IconImg: CosmeticIconImg,
       Name: "Cosmetic Dentistry",
       Text: "A beautiful smile contributes to a better mood and boosts self-esteem.",
     },
     {
-      Img: RestorativeImg,
       IconImg: RestorativeIconImg,
       Name: "Restorative Dentistry",
       Text: "We work toward creating youthful smiles for patients whose natural teeth require replacement.",
     },
     {
-      Img: EmergencyImg,
       IconImg: EmergencyIconImg,
       Name: "Emergency Care",
       Text: "Do not hesitate to seek help. Urgent dental care is provided usually the same day.",
@@ -66,38 +58,14 @@ function Services() {
               OUR SERVICES
             </p>
           </div>
-          <div>
+          {ServicesArray.map((service, index) => (
             <ServicesCard
-              GeneralImg={ServicesArray[0].Img}
-              GeneralIconImg={ServicesArray[0].IconImg}
-              ServiceName={ServicesArray[0].Name}
-              Description={ServicesArray[0].Text}
+              key={index}
+              GeneralIconImg={service.IconImg}
+              ServiceName={service.Name}
+              Description={service.Text}
             />
-          </div>
-          <div>
-            <ServicesCard
-              GeneralImg={ServicesArray[1].Img}
-              GeneralIconImg={ServicesArray[1].IconImg}
-              ServiceName={ServicesArray[1].Name}
-              Description={ServicesArray[1].Text}
-            />
-          </div>
-          <div>
-            <ServicesCard
-              GeneralImg={ServicesArray[2].Img}
-              GeneralIconImg={ServicesArray[2].IconImg}
-              ServiceName={ServicesArray[2].Name}
-              Description={ServicesArray[2].Text}
-            />
-          </div>
-          <div>
-            <ServicesCard
-              GeneralImg={ServicesArray[3].Img}
-              GeneralIconImg={ServicesArray[3].IconImg}
-              ServiceName={ServicesArray[3].Name}
-              Description={ServicesArray[3].Text}
-            />
-          </div>
+          ))}
         </div>
 
         <div className="border-t border-dashed border-gray-700">

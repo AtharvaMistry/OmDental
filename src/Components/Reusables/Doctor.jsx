@@ -6,8 +6,6 @@ function Doctor() {
       <p className="text-gray-800 text-xl font-medium border-b border-gray-800 border-dashed">
         MEET THE DENTIST
       </p>
-
-   
       <div className="flex justify-center items-center gap-5 flex-col mt-5 border border-gray-300 rounded-md p-3 hover:border-[#8774d9] cursor-pointer glowingEffect sm:flex-row">
         <p className="text-gray-600 text-sm max-w-[400px] my-5 order-2 ">
           Dr.Navdip is a trusted dentist with strong education and training.

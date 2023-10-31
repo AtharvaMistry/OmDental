@@ -9,7 +9,6 @@ function ServicesCard({
 }) {
   return (
     <div className="relative min-h-[200px] h-[250px] max-h-[250px] backgroundPattern rounded-md">
-      {/* <img src={GeneralImg} alt="" className="object-cover w-full h-full" /> */}
       <div className="absolute top-[2%] right-[2%] left-[2%] bottom-[2%] p-1 flex justify-center flex-col items-center text-center  glassmorphism1 hover:translate-x-4 hover:-translate-y-4">
         <p className="text-gray-900 text-sm font-medium mb-3">{ServiceName}</p>
         <div className="border rounded-full border-gray-700 p-1">

@@ -20,7 +20,22 @@ import {
 } from "@iconscout/react-unicons";
 import Button from "./Reusables/Button";
 import Doctor from "./Reusables/Doctor";
+import React from "react";
 function About() {
+  const features = [
+    { icon: UilUserMd, text: "Friendly Doctors" },
+    { icon: UilSmile, text: "Family Friendly" },
+    { icon: UilGift, text: "Free Consultation" },
+    { icon: UilStethoscope, text: "Modern Equipment" },
+    { icon: UilBag, text: "Comfortable Office" },
+    { icon: UilLocationArrow, text: "Convenient Location" },
+    { icon: UilBoltAlt, text: "Satisfaction Guarantee" },
+    { icon: UilThermometer, text: "High-Quality Materials" },
+    { icon: UilUserMd, text: "Laser Dentistry" },
+    { icon: UilClock, text: "Little to no Wait Time" },
+    { icon: UilAccessibleIconAlt, text: "Accessibility" },
+    { icon: UilDesktopCloudAlt, text: "Digital 3D X-Ray" },
+  ];
   return (
     <>
       <div className="grid grid-cols-1 px-4 md:px-20 py-5">
@@ -44,64 +59,17 @@ function About() {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-5 my-10  sm:grid-cols-2 md:grid-cols-4 ">
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilUserMd className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Friendly Doctors</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilSmile className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Family Friendly</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilGift className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Free Consultation</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilStethoscope className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Modern Equipment</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilBag className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Comfortable Office</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilLocationArrow className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Convenient Location</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilBoltAlt className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Satisfaction Guarantee</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilThermometer className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">High-Quality Materials</p>
-          </div>
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilUserMd className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Laser Dentistry</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilClock className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Little to no Wait Time</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilAccessibleIconAlt className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Accessibility</p>
-          </div>
-
-          <div className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]">
-            <UilDesktopCloudAlt className="text-[#8774d9]" />
-            <p className="text-gray-600 text-sm">Digital 3D X-Ray</p>
-          </div>
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="flex justify-start items-center gap-2 border-dashed border border-gray-600 p-2 min-h-[55px] cursor-pointer rounded-md hover:border-[#8774d9]"
+            >
+              {React.createElement(feature.icon, {
+                className: "text-[#8774d9] animate-pulse",
+              })}
+              <p className="text-gray-600 text-sm">{feature.text}</p>
+            </div>
+          ))}
         </div>
 
         {/* mission */}
