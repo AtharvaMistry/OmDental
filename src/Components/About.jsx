@@ -1,8 +1,8 @@
 import Footer from "./Footer";
-import TeamImg from "../assets/Dentist3.png";
-import TeamImg1 from "../assets/Dentist4.png";
+// import TeamImg from "../assets/Dentist3.png";
+// import TeamImg1 from "../assets/Dentist4.png";
 
-import BackgroundImg from "../assets/young-female-patient-visiting-dentist-office (1).jpg";
+// import BackgroundImg from "../assets/young-female-patient-visiting-dentist-office (1).jpg";
 import "../App.css";
 import "./Style.css";
 import {
@@ -55,7 +55,7 @@ function About() {
             </p>
           </div>
           <div className="max-w-[400px] overflow-hidden">
-            <img src={TeamImg1} alt="" className="object-cover" />
+            <img src="/assets/Dentist4.png" alt="" className="object-cover" />
           </div>
         </div>
         <div className="grid grid-cols-1 gap-5 my-10  sm:grid-cols-2 md:grid-cols-4 ">
@@ -75,9 +75,9 @@ function About() {
         {/* mission */}
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="rounded-full overflow-hidden flex justify-center items-center max-w-[400px]">
-            <img src={TeamImg} alt="" className="!object-cover" />
+            <img src="/assets/Dentist3.png" alt="" className="!object-cover" />
           </div>
-          <div className="px-5 lg:flex justify-center items-center flex-col ">
+          <div className="px-5 lg:flex justify-center items-center flex-col gap-y-5">
             <div className="mb-5 border border-dashed border-gray-700 rounded-md p-2 lg:mb-0">
               <p className="text-sm font-medium text-gray-800">OUR MISSION</p>
               <p className="text-xs my-2 text-gray-600">
@@ -110,7 +110,7 @@ function About() {
         {/* consultation */}
         <div className="grid max-h-[300px] overflow-hidden my-10 relative">
           <img
-            src={BackgroundImg}
+            src="/assets/young-female-patient-visiting-dentist-office (1).jpg"
             alt=""
             className="object-center opacity-[0.5]"
           />

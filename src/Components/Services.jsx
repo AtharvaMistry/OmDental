@@ -1,33 +1,32 @@
 import "./Style.css";
 import Footer from "./Footer";
 import Button from "./Reusables/Button";
-import GeneralIconImg from "../assets/icons8-dental-91.png";
-import CosmeticIconImg from "../assets/icons8-dental-filling-50.png";
-import RestorativeIconImg from "../assets/icons8-dental-65.png";
-import EmergencyIconImg from "../assets/icons8-dental-64.png";
+// import GeneralIconImg from "../assets/icons8-dental-91.png";
+// import CosmeticIconImg from "../assets/icons8-dental-filling-50.png";
+// import RestorativeIconImg from "../assets/icons8-dental-65.png";
+// import EmergencyIconImg from "../assets/icons8-dental-64.png";
 import ServicesCard from "./Reusables/ServicesCard";
 import Contact from "./Reusables/Contact";
-
 
 function Services() {
   const ServicesArray = [
     {
-      IconImg: GeneralIconImg,
+      IconImg: "/assets/icons8-dental-91.png",
       Name: "General Dental Care",
       Text: "General dentistry is for patients of all ages offering complete, comprehensive dental health care.",
     },
     {
-      IconImg: CosmeticIconImg,
+      IconImg: "/assets/icons8-dental-filling-50.png",
       Name: "Cosmetic Dentistry",
       Text: "A beautiful smile contributes to a better mood and boosts self-esteem.",
     },
     {
-      IconImg: RestorativeIconImg,
+      IconImg: "/assets/icons8-dental-65.png",
       Name: "Restorative Dentistry",
       Text: "We work toward creating youthful smiles for patients whose natural teeth require replacement.",
     },
     {
-      IconImg: EmergencyIconImg,
+      IconImg: "/assets/icons8-dental-64.png",
       Name: "Emergency Care",
       Text: "Do not hesitate to seek help. Urgent dental care is provided usually the same day.",
     },

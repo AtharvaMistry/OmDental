@@ -1,13 +1,13 @@
 import { UilRegistered } from "@iconscout/react-unicons";
-import HomeImg2 from "../assets/Dentist.png";
-import HomeImg3 from "../assets/Dentist2.png";
+// import HomeImg2 from "../assets/Dentist.png";
+// import HomeImg3 from "../assets/Dentist2.png";
 import ServicesHome from "./Reusables/ServicesHome";
-import Services1Img from "../assets/icons8-dental-32.png";
-import Services2Img from "../assets/icons8-dental-48.png";
-import Services3Img from "../assets/icons8-dental-64.png";
-import Services4Img from "../assets/icons8-dental-65.png";
-import ReviewImg from "../assets/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign-removebg-preview.png";
-import DoctorImg from "../assets/Doctor.jpg";
+// import Services1Img from "../assets/icons8-dental-32.png";
+// import Services2Img from "../assets/icons8-dental-48.png";
+// import Services3Img from "../assets/icons8-dental-64.png";
+// import Services4Img from "../assets/icons8-dental-65.png";
+// import ReviewImg from "../assets/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign-removebg-preview.png";
+// import DoctorImg from "../assets/Doctor.jpg";
 import { Carousel } from "antd";
 import "../App.css";
 import Reviews from "./Reusables/Reviews";
@@ -16,22 +16,22 @@ import Doctor from "./Reusables/Doctor";
 function Home() {
   const ServicesHomeArray = [
     {
-      img: Services1Img,
+      img: "/assets/icons8-dental-32.png",
       title: "General Dental Care",
       text: "General dentistry is for patients of all ages offering complete, comprehensive dental health care.",
     },
     {
-      img: Services2Img,
+      img: "/assets/icons8-dental-48.png",
       title: "Cosmetic Dentistry",
       text: "A beautiful smile contributes to a better mood and boosts self-esteem.",
     },
     {
-      img: Services3Img,
+      img: "/assets/icons8-dental-64.png",
       title: "Restorative Dentistry",
       text: "We work toward creating youthful smiles for patients whose natural teeth require replacement.",
     },
     {
-      img: Services4Img,
+      img: "/assets/icons8-dental-65.png",
       title: "Emergency Care",
       text: "Do not hesitate to seek help. Urgent dental care is provided usually the same day.",
     },
@@ -39,19 +39,19 @@ function Home() {
   // reviews
   const ReviewArray = [
     {
-      Photo: DoctorImg,
+      Photo: "/assets/Doctor.jpg",
       Review:
         "Great dentist! Dr.Navdip and the team are super friendly and professional. I felt at ease throughout the entire visit. My teeth feel amazing after the cleaning. Highly recommend!",
       Name: "Jaimeen Makavana",
     },
     {
-      Photo: DoctorImg,
+      Photo: "/assets/Doctor.jpg",
       Review:
         "Had a painless root canal procedure here. Dr. Navdip was very gentle, and the staff made sure I was comfortable. I'm so relieved, and my tooth feels as good as new!",
       Name: "Janak Ladumor",
     },
     {
-      Photo: DoctorImg,
+      Photo: "/assets/Doctor.jpg",
       Review:
         "Amazing experience at this dental clinic! From the moment I walked in, I was greeted with a warm smile. Dr. explained everything clearly and made my orthodontic journey a breeze. Smiling confidently now!",
       Name: "Umesh Boricha",
@@ -82,7 +82,11 @@ function Home() {
         </div>
         <div className="flex justify-center items-center">
           <div className="max-w-[400px]">
-            <img src={HomeImg2} alt="" className="object-cover w-full h-full" />
+            <img
+              src="/assets/Dentist.png"
+              alt=""
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
       </div>
@@ -122,7 +126,11 @@ function Home() {
         </div>
         <div className="flex justify-center items-center">
           <div className="max-w-[400px]">
-            <img src={HomeImg3} alt="" className="object-cover w-full h-full" />
+            <img
+              src="/assets/Dentist2.png"
+              alt=""
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
       </div>
@@ -183,8 +191,12 @@ function Home() {
               />
             </Carousel>
           </div>
-          <div>
-            <img src={ReviewImg} alt="" />
+          <div className="grid place-items-center">
+            <img
+              src="/assets/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign-removebg-preview.png"
+              alt=""
+              className="w-full h-full max-h-[400px] max-w-[400px]"
+            />
           </div>
         </div>
       </div>

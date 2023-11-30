@@ -1,6 +1,3 @@
-import Dentist from "../../assets/Dentist2.png";
-import Dentist1 from "../../assets/Dentist3.png";
-import Dentist3 from "../../assets/Dentist4.png";
 function Blog2() {
   return (
     <div className="grid">
@@ -20,7 +17,7 @@ function Blog2() {
       {/* first */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-4">
         <div className="md:col-span-2 grid place-items-center">
-          <img src={Dentist} alt="" className="max-w-[400px]" />
+          <img src="/assets/Dentist2.png" alt="" className="max-w-[400px]" />
         </div>
         <div className="md:col-span-2">
           <div>
@@ -49,7 +46,7 @@ function Blog2() {
       {/* second */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-4">
         <div className="md:col-span-2 grid place-items-center md:order-2">
-          <img src={Dentist1} alt="" className="max-w-[400px]" />
+          <img src="/assets/Dentist3.png" alt="" className="max-w-[400px]" />
         </div>
         <div className="md:col-span-2 ">
           <div>
@@ -75,7 +72,7 @@ function Blog2() {
       {/* third */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-4">
         <div className="md:col-span-2 grid place-items-center">
-          <img src={Dentist3} alt="" className="max-w-[400px]" />
+          <img src="/assets/Dentist4.png" alt="" className="max-w-[400px]" />
         </div>
         <div className="md:col-span-2">
           <div>

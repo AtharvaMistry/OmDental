@@ -1,4 +1,4 @@
-import Services5Img from "../../assets/Doctor.jpg";
+// import Services5Img from "../../assets/Doctor.jpg";
 import "../Style.css";
 function Doctor() {
   return (
@@ -14,7 +14,11 @@ function Doctor() {
           your dental health is in trusted hands.
         </p>
         <div className="rounded-full overflow-hidden shrink-0">
-          <img src={Services5Img} alt=" " className="w-36 h-36 object-cover" />
+          <img
+            src="/assets/Doctor.jpg"
+            alt="Dr. Navdip - Trusted Dentist"
+            className="w-36 h-36 object-cover"
+          />
         </div>
       </div>
     </div>

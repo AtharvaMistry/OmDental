@@ -1,5 +1,5 @@
-import Dentist from "../../assets/Dentist2.png";
-import Dentist1 from "../../assets/Dentist3.png";
+// import Dentist from "../../assets/Dentist2.png";
+// import Dentist1 from "../../assets/Dentist3.png";
 function Blog3() {
   return (
     <div className="grid">
@@ -21,7 +21,7 @@ function Blog3() {
       {/* first */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-4">
         <div className="md:col-span-2 grid place-items-center">
-          <img src={Dentist} alt="" className="max-w-[400px]" />
+          <img src="/assets/Dentist2.png" alt="" className="max-w-[400px]" />
         </div>
         <div className="md:col-span-2">
           <div>
@@ -63,7 +63,7 @@ function Blog3() {
       {/* second */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-4">
         <div className="md:col-span-2 md:order-2 grid place-items-center">
-          <img src={Dentist1} alt="" className="max-w-[400px]" />
+          <img src="/assets/Dentist3.png" alt="" className="max-w-[400px]" />
         </div>
         <div className="md:col-span-2">
           <div>

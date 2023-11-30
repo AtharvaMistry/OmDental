@@ -1,9 +1,18 @@
-import { UilPhone } from "@iconscout/react-unicons";
+import { UilPhone, UilArrowUp } from "@iconscout/react-unicons";
 
 function Footer() {
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
-    <div className="grid bg-[#c7bfec] px-4 sm:grid-cols-3 gap-5 md:px-20 py-10">
+    <div className="relative grid bg-[#c7bfec] px-4 sm:grid-cols-3 gap-5 md:px-20 py-10">
+      <button
+        className="absolute top-[-40px] right-2 border border-gray-700 rounded-full  p-1"
+        onClick={handleScrollToTop}
+      >
+        <UilArrowUp className="text-[#8744d9]" />
+      </button>
       <div>
         <div>
           <p className="text-[#8774d9] font-semibold">OmDentalCare</p>
@@ -15,7 +24,7 @@ function Footer() {
 
         <a href="tel:+916353846481">
           <div className="flex justify-center items-center gap-1 bg-[#8774d9] w-fit text-white px-5 py-2 rounded-full my-4 cursor-pointer hover:bg-[#afa3e6]">
-            <UilPhone className="w-4 animate-bounce" />
+            <UilPhone className="w-4" />
             <p>Call Us</p>
           </div>
         </a>

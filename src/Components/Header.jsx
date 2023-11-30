@@ -6,7 +6,7 @@ import "../App.css";
 import "./Style.css";
 import { Drawer } from "antd";
 function Header() {
-  const [Menu, setMenu] = useState("");
+  const [Menu, setMenu] = useState("Home");
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
     setOpen(true);
